@@ -1,0 +1,35 @@
+#credit-card {
+    border: 1px solid grey;
+    margin: 3px;
+    width: 40vh ;
+    height: 120px;
+ border-radius: 15px;
+ text-align: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 3px;
+}
+
+#credit-card img {
+   position: relative;
+   left: 80%;
+   padding-top: 5px;
+
+}
+
+#credit-card section {
+   padding: 4px;
+
+}
+
+
+#credit-card section div {
+ display: flex;
+ gap: 10px;
+ }
+
+ #numbers {
+    text-align: center;
+    font-size: 30px;
+ }

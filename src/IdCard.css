@@ -1,0 +1,24 @@
+#id-card {
+    display: flex;
+    border: 1px solid black;
+    margin: 3px;
+    width: 50vh;
+}
+
+#id-card li {
+    list-style: none;
+    text-align: left;
+   
+}
+
+#id-card img {
+    margin: 3px;
+}
+
+#id-card ul {
+    padding: 0;
+}
+
+h1 {
+    text-align: left;
+}

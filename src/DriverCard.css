@@ -1,0 +1,17 @@
+#drivercard {
+    background-color: blue;
+    color:white;
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+#img-driver {
+    width:200px;
+    height: 200px;
+    clip-path:ellipse(50% 50%);
+}
+
