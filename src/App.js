@@ -8,6 +8,15 @@ import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
 import DriverCard from './DriverCard';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
+import Carousel from "./Carousel";
+import NumbersTable from './NumbersTable';
+import FaceBook from "./Facebook";
+import SingleColorPicker from './SingleColorPicker';
+import RGBColorPicker from './RGBColorPicker';
+
 
 function App() {
   return (
@@ -107,7 +116,42 @@ function App() {
   }} />
 
 </section>
-
+<section>
+  <h1>LikeButton</h1>
+  <LikeButton /> <LikeButton />
+</section>
+<section>
+  <h1>ClickablePicture</h1>
+  <ClickablePicture
+  img='/img/persons/maxence.png'
+  imgClicked='/img/persons/maxence-glasses.png'
+/>
+</section>
+<section>
+  <h1>Dice</h1>
+  <Dice />
+</section>
+<section>
+  <h1>Carrousel</h1>
+  <Carousel
+  imgs={[
+    'https://randomuser.me/api/portraits/women/1.jpg',
+    'https://randomuser.me/api/portraits/men/1.jpg',
+    'https://randomuser.me/api/portraits/women/2.jpg',
+    'https://randomuser.me/api/portraits/men/2.jpg'
+  ]}
+/>
+</section>
+<section>
+  <h1>NumbersTable</h1>
+  <NumbersTable limit={12} />
+</section>
+<section>
+  <h1>FaceBook (Advanced)</h1>
+  <FaceBook />
+</section>
+<h1> Lifting State Up - RGBColorPicker</h1>
+<RGBColorPicker/>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+#profile {
+    display: flex;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+#profile li {
+    list-style: none;
+    font-size: 30px;
+}
+
+.true {
+    background-color: lightblue;
+}
